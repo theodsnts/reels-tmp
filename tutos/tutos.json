@@ -28,6 +28,8 @@
    }
   ],
   "piege": "Vers 18 h, tu te dis « c'est mort pour aujourd'hui » et tu lâches aussi ta soirée. La parade : une ligne, une seule. Si t'en ajoutes une deuxième, reviens à la première.",
-  "phrase": "Il me reste ce soir, et ce soir suffit pour une ligne."
+  "phrase": "Il me reste ce soir, et ce soir suffit pour une ligne.",
+  "type": "tuto",
+  "mot": "TUTO"
  }
 ]

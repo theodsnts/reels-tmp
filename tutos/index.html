@@ -3,11 +3,11 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Les tutos de Théo · passer à l'action</title>
-<meta name="description" content="La règle de la ligne barrée : les étapes, le piège à éviter, la phrase à garder.">
+<title>Les ressources de Théo · passer à l'action</title>
+<meta name="description" content="La règle de la ligne barrée : à faire ce soir, sans application.">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Les tutos de Théo">
-<meta property="og:description" content="La règle de la ligne barrée : les étapes, le piège à éviter, la phrase à garder.">
+<meta property="og:title" content="Ce que je t'envoie en message">
+<meta property="og:description" content="La règle de la ligne barrée : à faire ce soir, sans application.">
 <meta property="og:url" content="https://theodsnts.github.io/reels-tmp/tutos/">
 <meta property="og:image" content="https://theodsnts.github.io/reels-tmp/tutos/apercu.jpg">
 <meta name="theme-color" content="#050505">
@@ -16,7 +16,7 @@
 @font-face{font-family:"PJS";src:url("fonts/PlusJakartaSans-Bold.ttf") format("truetype");font-weight:700;font-display:swap}
 @font-face{font-family:"PJS";src:url("fonts/PlusJakartaSans-ExtraBold.ttf") format("truetype");font-weight:800;font-display:swap}
 *{box-sizing:border-box}
-html{background:#050505}
+html{background:#050505;scroll-behavior:smooth}
 body{margin:0;color:#fff;font:500 17px/1.55 "PJS",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
   background:radial-gradient(900px 620px at 100% -8%,rgba(229,55,47,.42),rgba(229,55,47,0) 70%),linear-gradient(#050505,#0f0f0f);
   background-repeat:no-repeat;background-color:#0f0f0f;min-height:100vh}
@@ -25,16 +25,32 @@ main{max-width:640px;margin:0 auto;padding:44px 22px 56px}
 .badge{margin-left:10px;padding:3px 9px;border-radius:99px;background:#e5372f;color:#fff;letter-spacing:.08em}
 h1{margin:0 0 10px;font-weight:800;font-size:38px;line-height:1.08;text-transform:uppercase}
 .intro{margin:0 0 34px;color:#bdbdbd}
-article{margin:0 0 26px;padding:26px 22px 24px;border:1px solid #2a2a2a;border-radius:18px;background:rgba(12,12,12,.82)}
+article{margin:0 0 26px;padding:26px 22px 24px;border:1px solid #2a2a2a;border-radius:18px;background:rgba(12,12,12,.82);scroll-margin-top:16px}
+article:target{border-color:#e5372f}
 h2{margin:0 0 6px;font-weight:800;font-size:27px;line-height:1.15}
 .source{margin:0 0 14px;color:#bdbdbd;font-size:14.5px}
 .pourqui{margin:0 0 20px}
-ol{list-style:none;margin:0 0 20px;padding:0;counter-reset:e}
-li{counter-increment:e;position:relative;margin:0 0 16px;padding-left:46px}
-li:before{content:counter(e);position:absolute;left:0;top:1px;width:32px;height:32px;border-radius:50%;
+ol.etapes{list-style:none;margin:0 0 20px;padding:0;counter-reset:e}
+ol.etapes li{counter-increment:e;position:relative;margin:0 0 16px;padding-left:46px}
+ol.etapes li:before{content:counter(e);position:absolute;left:0;top:1px;width:32px;height:32px;border-radius:50%;
   background:#e5372f;color:#fff;font-weight:800;font-size:16px;line-height:32px;text-align:center}
+.jour{margin:0 0 2px;color:#f2c94c;font-weight:700;font-size:12.5px;letter-spacing:.12em;text-transform:uppercase}
 h3{margin:0 0 3px;font-weight:700;font-size:18px;line-height:1.3}
 li p{margin:0;color:#e6e6e6}
+ul.cases,ul.phrases{list-style:none;margin:0 0 20px;padding:0}
+ul.cases li{margin:0 0 12px}
+ul.cases label{display:flex;gap:14px;align-items:flex-start;cursor:pointer}
+ul.cases input{appearance:none;-webkit-appearance:none;flex:none;width:26px;height:26px;margin:2px 0 0;border:2px solid #e5372f;border-radius:7px;background:transparent;cursor:pointer}
+ul.cases input:checked{background:#e5372f url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M5 12.5l4.5 4.5L19 7.5' fill='none' stroke='white' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center/18px no-repeat}
+ul.cases b{display:block;font-weight:700;font-size:18px;line-height:1.3}
+ul.cases span{color:#e6e6e6}
+ul.cases input:checked+span b{text-decoration:line-through;text-decoration-color:#e5372f}
+ul.phrases li{margin:0 0 16px;padding:0 0 14px;border-bottom:1px solid #222}
+.dire{font-weight:800;font-size:20px;line-height:1.3;color:#fff!important}
+.quand{margin-top:4px!important;color:#bdbdbd!important;font-size:15.5px}
+.modele{margin:0 0 18px}
+blockquote{margin:0 0 10px;padding:16px 18px;background:#141414;border:1px solid #2a2a2a;border-radius:12px;white-space:pre-wrap;font-size:17px;line-height:1.5}
+button.copier{padding:10px 18px;border:0;border-radius:99px;background:#fff;color:#050505;font:700 15px "PJS",system-ui,sans-serif;cursor:pointer}
 .bloc{margin:0 0 12px;padding:14px 16px;border-left:3px solid #e5372f;background:#141414;border-radius:0 12px 12px 0}
 .bloc p{margin:0}
 .bloc .label{margin-bottom:6px}
@@ -48,15 +64,15 @@ footer{margin:26px 0 0;color:#8a8a8a;font-size:13px;text-align:center}
 </head>
 <body>
 <main>
-  <p class="label">Les tutos · @theodossantos__</p>
+  <p class="label">Les ressources · @theodossantos__</p>
   <h1>Passe à l'action ce soir.</h1>
-  <p class="intro">Une règle, ses étapes, à faire ce soir. Le dernier tuto est en haut.</p>
+  <p class="intro">Tutos, listes, défis, modèles : ce que j'envoie en message quand tu commentes le mot d'un carrousel. Le dernier est en haut.</p>
   <article id="2026-11-11-669a56b3">
-    <p class="label">11 novembre 2026<span class="badge">Le dernier</span></p>
+    <p class="label">11 novembre 2026 · Le tuto<span class="badge">Le dernier</span></p>
     <h2>La règle de la ligne barrée</h2>
-    <p class="source">Le tuto du carrousel « Le jour où tu devais tout rattraper »</p>
+    <p class="source">Du carrousel « Le jour où tu devais tout rattraper »</p>
     <p class="pourqui">Pour le soir d&#x27;une journée libre où t&#x27;as rien lancé, et où t&#x27;es à deux doigts de lâcher ta soirée avec.</p>
-    <ol>
+    <ol class="etapes">
       <li><h3>Sors ta liste en entier</h3><p>Écris tout ce que tu devais faire aujourd&#x27;hui, sur papier ou dans tes notes. Deux minutes. Tant que c&#x27;est dans ta tête, tout a la même taille.</p></li>
       <li><h3>Garde une seule ligne</h3><p>Choisis celle qui tient en une soirée et qui te pèse le plus. Si aucune ne tient en une soirée, coupe : « ranger l&#x27;appart » devient « ranger le bureau ».</p></li>
       <li><h3>Date le reste</h3><p>Les autres lignes passent à demain ou plus tard, avec un jour écrit à côté de chacune. Une ligne datée, t&#x27;arrêtes d&#x27;y penser ce soir.</p></li>
@@ -67,10 +83,21 @@ footer{margin:26px 0 0;color:#8a8a8a;font-size:13px;text-align:center}
     <div class="bloc phrase"><p class="label">La phrase à garder</p><p>Il me reste ce soir, et ce soir suffit pour une ligne.</p></div>
   </article>
   <div class="suivre">
-    <p>Si ça t'a servi, abonne-toi : une nouvelle règle chaque semaine sur Instagram.</p>
+    <p>Si ça t'a servi, abonne-toi : un nouveau carrousel presque chaque jour sur Instagram.</p>
     <a class="bouton" href="https://www.instagram.com/theodossantos__/">Suivre @theodossantos__</a>
   </div>
-  <footer>@theodossantos__ · page mise à jour à chaque nouveau tuto</footer>
+  <footer>@theodossantos__ · page mise à jour à chaque nouvelle ressource</footer>
 </main>
+<script>
+document.querySelectorAll("button.copier").forEach(function (b) {
+  b.addEventListener("click", function () {
+    var t = b.previousElementSibling.innerText;
+    var fini = function () { b.textContent = "Copié"; setTimeout(function () { b.textContent = "Copier le texte"; }, 1800); };
+    if (navigator.clipboard && navigator.clipboard.writeText) { navigator.clipboard.writeText(t).then(fini, function () {}); }
+    else { var r = document.createRange(); r.selectNodeContents(b.previousElementSibling);
+           var s = window.getSelection(); s.removeAllRanges(); s.addRange(r); }
+  });
+});
+</script>
 </body>
 </html>
