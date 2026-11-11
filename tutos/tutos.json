@@ -1,0 +1,33 @@
+[
+ {
+  "id": "2026-11-11-669a56b3",
+  "date": "2026-11-11",
+  "titre": "La règle de la ligne barrée",
+  "carrousel": "Le jour où tu devais tout rattraper.",
+  "pour_qui": "Pour le soir d'une journée libre où t'as rien lancé, et où t'es à deux doigts de lâcher ta soirée avec.",
+  "etapes": [
+   {
+    "titre": "Sors ta liste en entier",
+    "texte": "Écris tout ce que tu devais faire aujourd'hui, sur papier ou dans tes notes. Deux minutes. Tant que c'est dans ta tête, tout a la même taille."
+   },
+   {
+    "titre": "Garde une seule ligne",
+    "texte": "Choisis celle qui tient en une soirée et qui te pèse le plus. Si aucune ne tient en une soirée, coupe : « ranger l'appart » devient « ranger le bureau »."
+   },
+   {
+    "titre": "Date le reste",
+    "texte": "Les autres lignes passent à demain ou plus tard, avec un jour écrit à côté de chacune. Une ligne datée, t'arrêtes d'y penser ce soir."
+   },
+   {
+    "titre": "Commence avant de manger",
+    "texte": "Accroche le début à un geste que tu fais de toute façon : te mettre à table. Lance un minuteur de 10 minutes et fais le tout début. Quand il sonne, tu continues ou tu t'arrêtes."
+   },
+   {
+    "titre": "Barre-la pour de vrai",
+    "texte": "Un trait sur la ligne, au stylo ou dans tes notes. C'est la preuve de ta journée. Demain matin, tu repars de la ligne suivante, déjà datée."
+   }
+  ],
+  "piege": "Vers 18 h, tu te dis « c'est mort pour aujourd'hui » et tu lâches aussi ta soirée. La parade : une ligne, une seule. Si t'en ajoutes une deuxième, reviens à la première.",
+  "phrase": "Il me reste ce soir, et ce soir suffit pour une ligne."
+ }
+]
