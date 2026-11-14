@@ -1,5 +1,38 @@
 [
  {
+  "id": "2026-11-14-27c7194a",
+  "date": "2026-11-14",
+  "type": "plan",
+  "mot": "REVEIL",
+  "titre": "Le dimanche en 5 créneaux",
+  "carrousel": "La moitié du week-end est passée.",
+  "pour_qui": "T'as passé le samedi sans rien cocher de ta liste et tu veux que ton dimanche compte quand même.",
+  "etapes": [
+   {
+    "titre": "Au réveil",
+    "texte": "Un verre d'eau, la fenêtre ouverte, et tu relis le papier posé hier soir. Tu touches pas au téléphone avant d'avoir lu ta ligne."
+   },
+   {
+    "titre": "10 h",
+    "texte": "Chrono d'une heure, et tu fais ta chose. Si ça coince, fais juste les 10 premières minutes : sortir les affaires, ouvrir le fichier, écrire la première phrase."
+   },
+   {
+    "titre": "11 h",
+    "texte": "Barre la ligne sur le papier, même si c'est pas fini. Note en trois mots où tu t'es arrêté, pour reprendre plus vite la prochaine fois."
+   },
+   {
+    "titre": "Après manger",
+    "texte": "Libre. Série, sieste, potes. Ton heure est faite, t'as rien à rattraper."
+   },
+   {
+    "titre": "Dimanche 20 h",
+    "texte": "Dix minutes pour lundi : ton sac, tes habits, et la première tâche écrite sur un nouveau bout de papier."
+   }
+  ],
+  "piege": "À 10 h, tu te dis « je finis mon café et je commence à 11 h ». La parade : tu commences avec le café à la main, et tu le finis devant ta chose.",
+  "phrase": "Une heure ce matin, et le reste du dimanche est à moi."
+ },
+ {
   "id": "2026-11-11-669a56b3",
   "date": "2026-11-11",
   "titre": "La règle de la ligne barrée",
