@@ -1,5 +1,46 @@
 [
  {
+  "id": "2026-11-17-13d49d30",
+  "date": "2026-11-17",
+  "type": "défi",
+  "mot": "QUATORZE",
+  "titre": "Le défi des 7 soirs avant décembre",
+  "carrousel": "Dans 14 jours, c'est décembre.",
+  "pour_qui": "Tu repousses un truc à janvier et il te reste deux semaines normales avant décembre.",
+  "etapes": [
+   {
+    "titre": "Écris ta chose",
+    "texte": "Sur un papier, en une seule ligne : ce que tu veux avoir lancé avant décembre. Pas envie ? Écris juste le premier mot."
+   },
+   {
+    "titre": "Prépare le terrain",
+    "texte": "Pose ce qu'il faut là où tu le verras demain : le sac, le dossier, le carnet. 5 minutes. Pas envie ? Pose un seul objet."
+   },
+   {
+    "titre": "Fais 10 minutes",
+    "texte": "Lance un minuteur de 10 minutes et commence par la partie la plus facile. Pas envie ? Fais 2 minutes, puis décide."
+   },
+   {
+    "titre": "Bloque ton heure",
+    "texte": "Choisis l'heure où t'es le plus dispo le soir et note-la dans ton agenda pour les jours qui restent. Pas envie ? Écris juste l'heure sur ton papier."
+   },
+   {
+    "titre": "Refais pareil",
+    "texte": "Même heure, même endroit, 10 minutes. Le but, c'est de répéter. Pas envie ? Mets juste ta tenue ou ouvre juste le dossier."
+   },
+   {
+    "titre": "Dis-le à quelqu'un",
+    "texte": "Envoie à un pote : « Je bosse sur [ta chose] jusqu'au 30. » Pas envie ? Écris le message sans l'envoyer, et envoie-le demain."
+   },
+   {
+    "titre": "Fais le point",
+    "texte": "Compte les jours cochés et écris en une ligne la suite pour décembre. Pas envie ? Coche juste le jour, ça laisse une trace."
+   }
+  ],
+  "piege": "Le jour 3, l'effet du début retombe et tu sautes un jour. La parade : un jour raté, tu fais le suivant comme prévu, sans rien rattraper.",
+  "phrase": "Je fais 10 minutes, après je décide."
+ },
+ {
   "id": "2026-11-14-27c7194a",
   "date": "2026-11-14",
   "type": "plan",
