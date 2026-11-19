@@ -1,5 +1,42 @@
 [
  {
+  "id": "2026-11-19-7d4c45ae",
+  "date": "2026-11-19",
+  "type": "liste",
+  "mot": "TIROIR",
+  "titre": "Alléger ton week-end dès ce soir",
+  "carrousel": "4 trucs que tu gardes pour le week-end",
+  "pour_qui": "C'est jeudi soir et t'as promis au week-end tout ce que t'as pas fait de la semaine.",
+  "etapes": [
+   {
+    "titre": "Écris les trucs promis au week-end",
+    "texte": "Sur un papier, une ligne par truc. Entoure celui qui prend le moins de temps."
+   },
+   {
+    "titre": "Fais le truc entouré",
+    "texte": "Maintenant, avant de te coucher. Lance un minuteur de 10 minutes et arrête-toi quand il sonne."
+   },
+   {
+    "titre": "Lance une machine",
+    "texte": "Même une seule. Elle tourne pendant que tu fais le reste de la liste."
+   },
+   {
+    "titre": "Écris le mail en brouillon",
+    "texte": "Trois lignes, sans relire. Demain matin, tu relis et tu l'envoies."
+   },
+   {
+    "titre": "Sors ta tenue de sport",
+    "texte": "Pose-la sur la chaise, à la place du linge. Samedi, t'as juste à l'enfiler."
+   },
+   {
+    "titre": "Donne une heure à chaque truc restant",
+    "texte": "« Samedi 10 h : le projet. » Une heure écrite, tu la retrouves samedi matin."
+   }
+  ],
+  "piege": "Tu fais le premier truc, puis tu te dis que t'as plus le temps pour le reste et tu lâches tout. La parade : un seul truc suffit ce soir, les autres ont leur heure écrite pour samedi.",
+  "phrase": "Un truc de moins ce soir, c'est un samedi plus léger."
+ },
+ {
   "id": "2026-11-17-13d49d30",
   "date": "2026-11-17",
   "type": "défi",
